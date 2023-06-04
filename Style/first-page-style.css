@@ -1,14 +1,19 @@
+
 @font-face {
-    font-family: "mix";
-    src:url('/src/mixak.ttf') format('truetype');
-  }
+  font-family: 'mikhak-ds1bold';
+  src:
+       url('/src/mixak.ttf') format('truetype'),
+       url('/mixak-webfont.woff') format('woff'),
+       url('/mixak-webfont.woff2') format('woff2');
+
+}
 *{
     overflow: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: 0;
-    font-family:"mix";
+    font-family: 'mikhak-ds1bold';
 }
 :root
 {
@@ -47,10 +52,10 @@ body{
     align-items: center;
 }
 .right h1{
-    font-size: 90px;
+    font-size: 80px;
     padding-bottom:5px;
     background-image: linear-gradient(45deg, var(--color-blue)  , var(--color-perple) );
-  font-weight: bold;
+  /* font-weight: bold; */
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -59,9 +64,10 @@ body{
   -moz-text-fill-color: transparent;
 }
 .right span{
-    font-size: 25px;
+    font-size: 23px;
+    margin: 5px;
     background-image: linear-gradient(45deg, var(--color-blue)  , var(--color-perple) );
-  font-weight: bold;
+  /* font-weight: bold; */
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -72,7 +78,7 @@ body{
 }
 /*///  buttons ///*/
 .comic-button{
-    width: 55%;
+    width: 58%;
     margin-top: 20px;
     font-size: 18px;
     text-align: center;
@@ -128,7 +134,7 @@ a {
         font-size: 30px;
         padding-bottom:5px;
         text-align: center;  
-        margin-top: 100px;       
+        margin-top: 80px;       
     }
     .right span{
         display: block;
