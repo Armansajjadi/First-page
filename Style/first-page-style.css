@@ -1,19 +1,11 @@
 
-@font-face {
-  font-family: 'mikhak-ds1bold';
-  src:
-       url('/src/mixak.ttf') format('truetype'),
-       url('/mixak-webfont.woff') format('woff'),
-       url('/mixak-webfont.woff2') format('woff2');
-
-}
 *{
     overflow: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: 0;
-    font-family: 'mikhak-ds1bold';
+    font-family: iranyekan,sans-serif;
 }
 :root
 {
