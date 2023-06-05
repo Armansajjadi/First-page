@@ -155,4 +155,9 @@ a {
       font-size: 15px;
       /* left: 20%; */
     }
+    a:hover{
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(0.92);
+    }
   }
